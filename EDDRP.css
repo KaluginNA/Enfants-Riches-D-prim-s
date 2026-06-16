@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerEDDRP{
+    background-color: black;
+    height: 180px;
+    color: aliceblue;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.logo{
+    font-size: 48px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+    
+
+
+.nav{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.img1{
+    
+    margin: 25px;
+    height: 600px;
+    
+
+}
+
+.img2{
+
+    margin: 25px;
+    height: 600px;
+    
+
+}
+
+.img3{
+    margin: 25px;
+}
+
+.img4{
+    height: 500px;
+    
+    
+    
+
+}
+
+.text1{
+    font-size: 30px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 25px;
+    padding: 20px;
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+
+}
+
+.info{
+    display: flex;
+}
+
+.info2{
+    margin: 25px;
+    justify-content: center;
+}
+
+.text2{
+    font-size: 90px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.text3{
+    margin-top: 40px;
+    font-size: 86px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.text4{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-size: 90px;
+    padding: 10px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.text5{
+    position: absolute;
+    
+    top: 0;
+    color: aliceblue;
+    font-size: 90px;
+    padding: 10px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.podbor{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    margin-top: 60px;
+    
+}
+
+.COLLECTIONS{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.carusel{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.carusel-nav{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.carusel-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer{
+    height: 700px;
+    background-color: black;
+    margin-top: 150px;
+}
+
+.About-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.About{
+    padding: 100px;
+    width: 500px;
+    
+}
+
+.About h1{
+    color: aliceblue;
+    font-size: 30px;
+    
+    
+}
+
+
+
+.About2{
+    color: aliceblue;
+    width: 100pz;
+    padding: 100px;
+}
+
+.About3{
+    color: aliceblue;
+    width: 100pz;
+    padding: 100px;
+
+}
+
+.Button-nav{
+    display: flex;
+     flex-direction: column;
+     gap: 30px;
+     font-size: 30px;
+     
+}
+
+.Button-nav a{
+    direction: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.SALE{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.SALE img{
+    margin: 25px;
+}
+
+.SALE1{
+    color: aliceblue;
+    width: 1000px;
+    font-size: 60px;
+    padding: 20px;
+    margin: 25px;
+    border: 1px solid white;
+}
+
