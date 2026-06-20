@@ -143,14 +143,29 @@
 
 .carusel{
     display: flex;
-    justify-content: center;
+    
     margin-top: 100px;
+    margin: 0 auto;
+    width: 1240px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    
 }
+
+.carusel-imges{
+    scroll-snap-align: center;
+}
+
+
+
+
 
 .carusel-nav{
     display: flex;
     text-decoration: none;
     color: black;
+    width: 840px;
+    
 }
 
 .carusel-nav a{
@@ -220,6 +235,7 @@
     background-color: black;
     margin: 0;
     padding: 0;
+    margin-top: 50px;
 
 }
 
@@ -234,5 +250,29 @@
     padding: 20px;
     margin: 25px;
     border: 1px solid white;
+}
+
+.left{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 50px;
+    margin-left: 30px;
+
+}
+
+.right{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+.carusel-button{
+    display: flex;
+    justify-content: center;
 }
 
