@@ -10,12 +10,13 @@
     color: aliceblue;
     align-items: center;
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: 1fr auto 1fr;
 }
 
 .logo{
-    font-size: 48px;
-    width: 600px;
+    font-size: 2.5rem;
+    
     text-align: center;
     margin: auto;
     
@@ -30,7 +31,7 @@
 
 .nav{
     text-align: right;
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-right: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,6 +46,7 @@
     
     margin: 25px;
     height: 600px;
+    height: 22vw;
     
 
 }
@@ -53,38 +55,51 @@
 
     margin: 25px;
     height: 600px;
+    height: 22vw;
     
 
 }
 
 .img3{
     margin: 25px;
+    height: 62vw;
+
 }
 
 .img4{
-    height: 500px;
+    height: 30vw;
     
-    
+}
+
+.img5{
+    height: 30vw;
     
 
 }
 
+
+
 .text1{
-    font-size: 30px;
+    font-size: 1.5vw;
     height: 600px;
     border: 1px solid black;
     margin: 25px;
     padding: 20px;
+    height: 22vw; 
+
+    
 }
 
 .Home{
     display: flex;
     justify-content: center;
+    
 
 }
 
 .info{
     display: flex;
+    justify-content: center;
 }
 
 .info2{
@@ -93,23 +108,25 @@
 }
 
 .text2{
-    font-size: 90px;
+    font-size: 3vw;
     border: 1px solid black;
     padding: 20px;
+    
 }
 
 .text3{
     margin-top: 40px;
-    font-size: 86px;
+    font-size: 3vw;
     border: 1px solid black;
     padding: 20px;
+    
 }
 
 .text4{
     position: absolute;
     bottom: 0;
     color: aliceblue;
-    font-size: 90px;
+    font-size: 4vw;
     padding: 10px;
     font-weight: bold;
     width: 600px;
@@ -120,7 +137,7 @@
     
     top: 0;
     color: aliceblue;
-    font-size: 90px;
+    font-size: 4vw;
     padding: 10px;
     font-weight: bold;
     width: 600px;
@@ -138,7 +155,7 @@
 .COLLECTIONS{
     text-align: center;
     margin-top: 70px;
-    font-size: 60px;
+    font-size: 1vw;
 }
 
 .carusel{
@@ -146,7 +163,7 @@
     
     margin-top: 100px;
     margin: 0 auto;
-    width: 1240px;
+    width: 60vw;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     
@@ -154,6 +171,7 @@
 
 .carusel-imges{
     scroll-snap-align: center;
+    
 }
 
 
@@ -174,7 +192,8 @@
 }
 
 .footer{
-    height: 700px;
+    height: 800px;
+    width: 100vw;
     background-color: black;
     margin-top: 150px;
 }
@@ -194,7 +213,7 @@
 
 .About h1{
     color: aliceblue;
-    font-size: 30px;
+    font-size: 2vw;
     
     
 }
@@ -205,6 +224,14 @@
     color: aliceblue;
     width: 100pz;
     padding: 100px;
+}
+
+.About2 a{
+    font-size: 2vw;
+}
+
+.About3 a{
+    font-size: 2vw;
 }
 
 .About3{
@@ -241,12 +268,14 @@
 
 .SALE img{
     margin: 25px;
+    height: 50vw;
 }
 
 .SALE1{
     color: aliceblue;
-    width: 1000px;
-    font-size: 60px;
+    height: 50vw;
+    width: 90vw;
+    font-size: 3vw;
     padding: 20px;
     margin: 25px;
     border: 1px solid white;
