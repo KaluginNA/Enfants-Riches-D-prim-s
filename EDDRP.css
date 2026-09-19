@@ -4,7 +4,31 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+min-height: 100vh;
+flex-direction: column;
+display: flex;
+}
+
+.main-content{
+    flex: 1 0 auto;
+    padding-top: 180px;
+}
+
+
+
 .headerEDDRP{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: black;
     height: 180px;
     color: aliceblue;
@@ -80,7 +104,7 @@
 
 
 .text1{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     height: 600px;
     border: 1px solid black;
     margin: 25px;
@@ -192,7 +216,6 @@
 }
 
 .footer{
-    height: 800px;
     width: 100vw;
     background-color: black;
     margin-top: 150px;
@@ -200,10 +223,13 @@
 
 .About-container{
     display: flex;
-    justify-content: center;
+    gap: 70px;
+    
     
     
 }
+
+
 
 .About{
     padding: 100px;
@@ -222,7 +248,7 @@
 
 .About2{
     color: aliceblue;
-    width: 100pz;
+    width: 100px;
     padding: 100px;
 }
 
@@ -236,7 +262,7 @@
 
 .About3{
     color: aliceblue;
-    width: 100pz;
+    width: 100px;
     padding: 100px;
 
 }
@@ -272,10 +298,11 @@
 }
 
 .SALE1{
+    justify-content: center;
     color: aliceblue;
     height: 50vw;
     width: 90vw;
-    font-size: 3vw;
+    font-size: 2.8vw;
     padding: 20px;
     margin: 25px;
     border: 1px solid white;
