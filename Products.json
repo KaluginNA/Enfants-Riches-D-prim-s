@@ -1,0 +1,185 @@
+{
+  "brand": "Enfants Riches Déprimés",
+  "currency": "EUR",
+  "categories": [
+    {
+      "name": "Pants",
+      "items": [
+        {
+          "id": "PNT-001",
+          "name": "Straight Leg Five-Pocket Pants",
+          "price": 890.00,
+          "sizes": ["XXS", "XS", "S", "M", "L", "XL"],
+          "material": "Leather",
+          "in_stock": true
+        },
+        {
+          "id": "PNT-002",
+          "name": "Flare Jeans",
+          "price": 720.00,
+          "sizes": ["XXS", "XS", "S", "M", "L", "XL"],
+          "material": "100% Cotton 13oz Japanese Denim",
+          "in_stock": true
+        },
+        {
+          "id": "PNT-003",
+          "name": "Paint Splatter Denim",
+          "price": 680.00,
+          "sizes": ["XS", "S", "M", "L"],
+          "material": "Japanese Denim",
+          "in_stock": false
+        }
+      ]
+    },
+    {
+      "name": "Rings",
+      "items": [
+        {
+          "id": "RNG-001",
+          "name": "Silver Signet Ring",
+          "price": 420.00,
+          "sizes": ["16", "17", "18", "19", "20", "21"],
+          "material": "Sterling Silver",
+          "in_stock": true
+        },
+        {
+          "id": "RNG-002",
+          "name": "Jeweled Band Ring",
+          "price": 550.00,
+          "sizes": ["16", "17", "18", "19"],
+          "material": "Sterling Silver with Stones",
+          "in_stock": true
+        },
+        {
+          "id": "RNG-003",
+          "name": "Stacking Ring Set",
+          "price": 390.00,
+          "sizes": ["16", "17", "18"],
+          "material": "Sterling Silver",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "name": "Hoodies",
+      "items": [
+        {
+          "id": "HDD-001",
+          "name": "Oversized Zip Hoodie",
+          "price": 750.00,
+          "sizes": ["S", "M", "L", "XL"],
+          "material": "100% Cotton",
+          "in_stock": true
+        },
+        {
+          "id": "HDD-002",
+          "name": "Distressed Logo Hoodie",
+          "price": 620.00,
+          "sizes": ["S", "M", "L", "XL"],
+          "material": "Garment-Dyed Cotton",
+          "in_stock": true
+        },
+        {
+          "id": "HDD-003",
+          "name": "Cropped Zip Hoodie",
+          "price": 690.00,
+          "sizes": ["XS", "S", "M", "L"],
+          "material": "100% Cotton",
+          "in_stock": false
+        }
+      ]
+    },
+    {
+      "name": "Longsleeves",
+      "items": [
+        {
+          "id": "LSL-001",
+          "name": "Distressed Logo Longsleeve",
+          "price": 480.00,
+          "sizes": ["S", "M", "L", "XL"],
+          "material": "Garment-Dyed Cotton",
+          "in_stock": true
+        },
+        {
+          "id": "LSL-002",
+          "name": "Graphic Print Longsleeve",
+          "price": 520.00,
+          "sizes": ["S", "M", "L"],
+          "material": "100% Cotton",
+          "in_stock": true
+        },
+        {
+          "id": "LSL-003",
+          "name": "Cropped Longsleeve",
+          "price": 450.00,
+          "sizes": ["XS", "S", "M", "L"],
+          "material": "Cotton Jersey",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "name": "Belts",
+      "items": [
+        {
+          "id": "BLT-001",
+          "name": "Jeweled Leather Belt",
+          "price": 980.00,
+          "sizes": ["S", "M", "L"],
+          "material": "Leather with Hardware",
+          "in_stock": true
+        },
+        {
+          "id": "BLT-002",
+          "name": "Silver Clasp Belt",
+          "price": 850.00,
+          "sizes": ["S", "M", "L", "XL"],
+          "material": "Leather",
+          "in_stock": true
+        },
+        {
+          "id": "BLT-003",
+          "name": "Classic Leather Belt",
+          "price": 650.00,
+          "sizes": ["S", "M", "L"],
+          "material": "Italian Leather",
+          "in_stock": false
+        }
+      ]
+    },
+    {
+      "name": "Bracelets",
+      "items": [
+        {
+          "id": "BRC-001",
+          "name": "Silver Chain Bracelet",
+          "price": 580.00,
+          "sizes": ["ONE SIZE"],
+          "material": "Sterling Silver",
+          "in_stock": true
+        },
+        {
+          "id": "BRC-002",
+          "name": "Leather Cuff Bracelet",
+          "price": 420.00,
+          "sizes": ["ONE SIZE"],
+          "material": "Leather with Silver Hardware",
+          "in_stock": true
+        },
+        {
+          "id": "BRC-003",
+          "name": "Safety Pin Bracelet",
+          "price": 350.00,
+          "sizes": ["ONE SIZE"],
+          "material": "Silver",
+          "in_stock": true
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2026-09-19",
+    "language": "en",
+    "total_categories": 6
+  }
+}
