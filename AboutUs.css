@@ -4,20 +4,44 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+min-height: 100vh;
+flex-direction: column;
+display: flex;
+}
+
+.main-content{
+    flex: 1 0 auto;
+    padding-top: 180px;
+}
+
 .headerEDDRP{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: black;
     height: 180px;
     color: aliceblue;
     align-items: center;
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: 1fr auto 1fr;
 }
 
 .logo{
-    font-size: 48px;
-    width: 600px;
+    font-size: 2.5rem;
+    
     text-align: center;
     margin: auto;
+    
     font-weight: bold;
     text-align: center;
     
@@ -55,28 +79,28 @@
 }
 
 .footer{
-    height: 700px;
+    width: 100vw;
     background-color: black;
     margin-top: 150px;
-    margin-top: -4px;
 }
 
 .About-container{
     display: flex;
-    justify-content: center;
+    gap: 70px;
+    
     
     
 }
 
 .About{
     padding: 100px;
-    width: 500px;
+    width: 800px;
     
 }
 
 .About h1{
     color: aliceblue;
-    font-size: 30px;
+    font-size: 2vw;
     
     
 }
@@ -85,13 +109,15 @@
 
 .About2{
     color: aliceblue;
-    width: 100pz;
+    width: 100px;
     padding: 100px;
 }
 
+
+
 .About3{
     color: aliceblue;
-    width: 100pz;
+    width: 100px;
     padding: 100px;
 
 }
