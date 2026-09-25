@@ -7,6 +7,8 @@
 html, body{
     height: 100%;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -45,6 +47,20 @@ display: flex;
     font-weight: bold;
     text-align: center;
     
+}
+
+.nav1{
+    margin-right: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 
