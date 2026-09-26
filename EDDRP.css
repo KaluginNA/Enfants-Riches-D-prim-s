@@ -235,6 +235,10 @@ display: flex;
     text-decoration: none;
 }
 
+.bg-video{
+    width: 100%;
+}
+
 .footer{
     width: 100vw;
     background-color: black;
