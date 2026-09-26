@@ -20,6 +20,7 @@ display: flex;
 .main-content{
     flex: 1 0 auto;
     padding-top: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -235,24 +236,22 @@ display: flex;
 }
 
 .footer{
+    width: 100vw;
     background-color: black;
-    margin-top: 1vw;
+    margin-top: 150px;
 }
 
 .About-container{
     display: flex;
-    gap: 1vw;
+    gap: 70px;
     
     
     
 }
 
-
-
 .About{
-    padding: 3vw;
+    padding: 100px;
     width: 800px;
-    font-size: 4vw;
     
 }
 
@@ -267,14 +266,16 @@ display: flex;
 
 .About2{
     color: aliceblue;
-    padding: 3vw;
-
+    width: 100px;
+    padding: 100px;
 }
+
+
 
 .About3{
     color: aliceblue;
     width: 100px;
-    padding: 3vw;
+    padding: 100px;
 
 }
 
@@ -282,7 +283,7 @@ display: flex;
     display: flex;
      flex-direction: column;
      gap: 30px;
-     font-size: 1vw;
+     font-size: 30px;
      
 }
 
